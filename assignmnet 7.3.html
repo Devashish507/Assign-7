@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Catalogue - Online Book Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0080ff;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+            text-align: left;
+        }
+        th {
+            background-color: lightskyblue;
+            color: #000000;
+        }
+        tbody tr:hover {
+            background-color: #f2f2f2;
+        }
+        .btn {
+            border: 2px solid black;
+            background-color: rgb(0, 17, 255);
+            color: rgb(255, 255, 255);
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 20px;
+        }
+        footer {
+            background-color: #00b7ff;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Book Catalogue</h1>
+    </header>
+    <nav>
+        <a href="assignment 7.1.html"><button class="btn">Home</button></a>
+        <a href="login_7.html"><button class="btn">Login</button></a>
+        <a href="#"><button class="btn">Catalogue</button></a>
+        <a href="assignment 7.4.html"><button class="btn">Register</button></a>
+    </nav>
+    <table onclick="window.location.href='https://en.wikipedia.org/wiki/Wikipedia:Books'">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Genre</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>The Amazing Spiderman</td>
+                <td>Marvel</td>
+                <td>Action</td>
+                <td>$19.99</td>
+            </tr>
+            <tr>
+                <td>Brief History of Time</td>
+                <td>Stephen Hawking</td>
+                <td>motivation</td>
+                <td>$24.99</td>
+            </tr>
+            <tr>
+                <td>Einstine's Life</td>
+                <td>Albert howling</td>
+                <td>motivation</td>
+                <td>$14.99</td>
+            </tr>
+        </tbody>
+    </table>
+    <footer>
+        &copy; 2024 Online Book Store
+    </footer>
+</body>
+</html>
